@@ -64,7 +64,7 @@ const WeatherDisplay = ({city}) => {
           <p>{weatherData.current.condition.text}</p>
         </div>
         <div className='weather-card'>
-          <span>wind</span>
+          <span>Wind Speed</span>
           <p>{weatherData.current.wind_kph} kph</p>
         </div>
         </div> }
